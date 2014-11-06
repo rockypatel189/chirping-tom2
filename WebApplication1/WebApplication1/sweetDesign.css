@@ -1,0 +1,14 @@
+﻿body {
+    background-image: url("http://ecx.images-amazon.com/images/I/51KDX0O%2BOkL.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+}
+h1 {
+    color: white;
+}
+#yapper {
+    color: red;
+    font-size: 20px;
+}

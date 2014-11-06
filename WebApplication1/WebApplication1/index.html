@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="sweetDesign.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div class="row clearfix">
+                    <div class="col-md-4 column">
+                    </div>
+                    <div class="col-md-4 column">
+                        <h1 class="text-center text-danger">
+                            #YAPPER
+                        </h1>
+                    </div>
+                    <div class="col-md-4 column">
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-md-2 column">
+                    </div>
+                    <div class="col-md-8 column" align="left">
+                        <textarea class="form-control" rows="2" placeholder="Enter Message..." id="message"></textarea><br />
+                        <p>
+                            <button type="button" class="btn btn-primary btn-danger" onclick="yapper.ajaxPost()">Send</button>
+                            <input type="text" id="userName" placeholder="UserName..." />
+                        </p><br />
+
+                        <div id="yapper" align="left"></div>
+
+                    </div>
+                    <div class="col-md-2 column">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="Scripts/jquery-1.9.0.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="_script.js"></script>
+</body>
+</html>
